@@ -15,7 +15,7 @@ namespace ConsoleApp1
 
             while (true)
             {
-               Menu();d
+               Menu();
                Console.Write("\nEnter choice (1-9, or 0 to exit): ");
 
                if (int.TryParse(Console.ReadLine(), out int userChoice))
